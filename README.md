@@ -263,6 +263,10 @@ python src/run_deep_agent.py \
 
 
 
+### Troubleshooting multi tool failures
+
+If DeepAgent looks stuck, keeps choosing strange tools, or ignores tool outputs when you run ToolBench or other multi tool benchmarks, see `docs/multi_tool_agent_failure_modes.md` for a step by step checklist.
+
 ### Evaluation
 
 Our model inference script can automatically save the model's input and output for evaluation. To run the evaluation, use the `--eval` flag when running `./src/run_deep_agent.py`. The evaluation scripts for each dataset are located in `./src/evaluate/`.
